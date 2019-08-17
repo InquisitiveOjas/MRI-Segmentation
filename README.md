@@ -1,8 +1,6 @@
-# MRI-Segmentation
-We, the AI development team of Drishti - A Revolutionary Concept, NIT SURAT has succesfully complemented this project on MRI Segmentation.  
-
-Alzheimer's dataset has been utilized to learn MRI Segmentation. 
-
-There are 4 classes in the dataset: Mild Demeted, Moderated Demeted, Non Demeted and Very Mild Demeted.
-
-Best performance was obtained by utilizing ResNet34 over the PyTorch framework.  
+# Alzheimer's Classification
+We are using an Alzheimer's Dataset.<br>
+The work uptil now is done on that dataset. We've been applying various models for the classification purpose. <br>
+The dataset has 4 unbalanced classes namely `MildDemented`, `ModerateDemented`, `NonDemented` & `VeryMildDemented`. <br>
+The best model uptil now is ResNet34 with an accuracy of 75% using the fastai library built upon pytorch. The trained weights are saved in `.models/` as `resnet34_unfreezed.pth`. <br>
+The models confuses between `NonDemented` & `VeryMildDemented` which seems pretty reasonable. <br>
